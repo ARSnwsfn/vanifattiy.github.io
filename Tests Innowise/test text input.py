@@ -18,7 +18,7 @@ driver.quit()
 # второй вариант ожидания:
 # try:
 #     element = WebDriverWait(driver, 10).until(
-#         EC.element_to_be_clickable((By.CSS_SELECTOR, "#updatingButton"),"Button That Should Change it's Name Based on Input Value")
+#         EC.element_to_be_clickable((By.LINK_TEXT,"Button That Should Change it's Name Based on Input Value")
 #     )
 # except:
 #     print('Test Passed')
