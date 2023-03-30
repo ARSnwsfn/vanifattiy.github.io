@@ -1,4 +1,4 @@
-from seleniumpagefactory.Pagefactory import PageFactory
+from UI_Playground.Pages.BasePage import BasePage
 from selenium import Webdriver
 
 
