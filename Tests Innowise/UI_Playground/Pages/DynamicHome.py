@@ -1,7 +1,8 @@
-from seleniumpagefactory.Pagefactory import PageFactory
+from UI_Playground.Pages.BasePage import BasePage
+from selenium import Webdriver
 
 
-class DynamicHome(PageFactory):
+class DynamicHome(BasePage):
     def __init__(self, driver):
         self.driver = driver
 
@@ -11,5 +12,6 @@ locators = {
 }
 
 
-def click_btn(self):
-    self.dynamic_btn.click()
+# def open_site(self):
+#     driver = Webdriver.Chrome()
+#     return driver.get('http://uitestingplayground.com/dynamicid')
