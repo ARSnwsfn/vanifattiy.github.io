@@ -7,5 +7,5 @@ def test_text_input():
 
     do_send_keys(locators.input_field,'My_Button')
     do_click(locators.changeable_btn)
-    check_if_visible(locators.check_changeable_btn)
+    assert locators.check_if_visible(locators.check_changeable_btn)
 
