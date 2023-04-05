@@ -1,4 +1,5 @@
-from selenium import Webdriver
+from selenium import webdriver
+
 from UI_Playground.Pages.TextInputHome import TextInputHome
 
 def test_text_input():
