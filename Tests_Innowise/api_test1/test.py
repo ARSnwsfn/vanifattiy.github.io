@@ -1,6 +1,6 @@
-from vanifattiy_.Tests_Innowise.api_test1.register.api import Register
-from vanifattiy_.Tests_Innowise.api_test1.register.models import RegisterUser
-from vanifattiy_.Tests_Innowise.api_test1.schemas.registration import valid_schema
+from vaniffatiy_.Tests_Innowise.api_test1 import Register
+from vaniffatiy_.Tests_Innowise.api_test1 import RegisterUser
+from vaniffatiy_.Tests_Innowise.api_test1 import valid_schema
 
 URL = "https://stores-tests-api.herokuapp.com"
 

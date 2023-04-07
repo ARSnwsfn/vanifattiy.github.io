@@ -1,5 +1,4 @@
-from vanifattiy_.Tests_Innowise.UI_Playground.Pages.BasePage import BasePage
-from selenium import webdriver
+from vaniffatiy_.Tests_Innowise import BasePage
 
 
 class TextInputHome(BasePage):

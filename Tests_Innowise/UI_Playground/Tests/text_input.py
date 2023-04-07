@@ -1,7 +1,6 @@
 from selenium import webdriver
 driver = webdriver.Chrome()
 
-from vanifattiy_.Tests_Innowise.UI_Playground.Pages.TextInputHome import TextInputHome
 
 def test_text_input():
     driver = webdriver.Chrome()

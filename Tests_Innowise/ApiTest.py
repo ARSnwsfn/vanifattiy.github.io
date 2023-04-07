@@ -13,6 +13,6 @@ def test create_user():
         print('ERROR: %s' % e)
     assert r.text == "Ok"
 
-import requests
+
 
 
