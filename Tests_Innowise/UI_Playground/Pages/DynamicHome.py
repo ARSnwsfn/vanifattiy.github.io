@@ -1,5 +1,6 @@
-from UI_Playground.Pages.BasePage import BasePage
-from selenium import Webdriver
+import BasePage
+from selenium import webdriver
+driver = webdriver.Chrome()
 
 
 class DynamicHome(BasePage):

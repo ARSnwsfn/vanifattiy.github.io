@@ -1,5 +1,6 @@
-from selenium import Webdriver
-from UI_Playground.Pages.DynamicHome import DynamicHome
+from selenium import webdriver
+driver = webdriver.Chrome()
+import DynamicHome
 
 def test_dynamic_id():
     driver = Webdriver.Chrome()

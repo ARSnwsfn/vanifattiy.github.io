@@ -1,9 +1,10 @@
 from selenium import webdriver
+driver = webdriver.Chrome()
 
-from UI_Playground.Pages.TextInputHome import TextInputHome
+from vanifattiy_.Tests_Innowise.UI_Playground.Pages.TextInputHome import TextInputHome
 
 def test_text_input():
-    driver = Webdriver.Chrome()
+    driver = webdriver.Chrome()
     driver.get('http://uitestingplayground.com/textinput')
 
     do_send_keys(locators.input_field,'My_Button')
