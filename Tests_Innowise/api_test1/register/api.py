@@ -2,8 +2,10 @@
 import logging
 from jsonschema import validate
 
-from vaniffatiy_.Tests_Innowise.api_test1.custom_requests import Client
-from vaniffatiy_.Tests_Innowise.api_test1.register.models import ResponseModel
+from Tests_Innowise.api_test1.custom_requests import Client
+from Tests_Innowise.api_test1.register.models import ResponseModel
+
+
 
 logger = logging.getLogger("api")
 
